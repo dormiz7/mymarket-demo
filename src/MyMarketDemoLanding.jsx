@@ -22,7 +22,7 @@ function MyMarketDemoLanding() {
   const [channelPlan, setChannelPlan] = useState(null);
 
   const generatePost = () => {
-    const post = \`Check out our latest opportunity: \${product}! A \${tone.toLowerCase()} marketing message tailored for your audience.\`;
+    const post = `Check out our latest opportunity: ${product}! A ${tone.toLowerCase()} marketing message tailored for your audience.`;
     setGeneratedPost(post);
   };
 
